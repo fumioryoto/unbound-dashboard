@@ -2,15 +2,15 @@
 <div align="center">
 
 ![unbound](https://img.shields.io/badge/-unbound‑dashboard-D8BFD8?logo=unrealengine&logoColor=3a3a3d)
-&nbsp;&nbsp;[![release](https://img.shields.io/github/v/release/ar51an/unbound-dashboard?display_name=release&logo=rstudio&color=90EE90&logoColor=8FBC8F)](https://github.com/ar51an/unbound-dashboard/releases/latest/)
-&nbsp;&nbsp;![downloads](https://img.shields.io/github/downloads/ar51an/unbound-dashboard/total?color=orange&label=downloads&logo=github)
+&nbsp;&nbsp;[![release](https://img.shields.io/github/v/release/fumioryoto/unbound-dashboard?display_name=release&logo=rstudio&color=90EE90&logoColor=8FBC8F)](https://github.com/fumioryoto/unbound-dashboard/releases/latest/)
+&nbsp;&nbsp;![downloads](https://img.shields.io/github/downloads/fumioryoto/unbound-dashboard/total?color=orange&label=downloads&logo=github)
 &nbsp;&nbsp;![visitors](https://img.shields.io/endpoint?color=4883c2&label=visitors&logo=github&url=https%3A%2F%2Fhits.dwyl.com%2Far51an%2Funbound-dashboard.json)
-&nbsp;&nbsp;![license](https://img.shields.io/github/license/ar51an/unbound-dashboard?color=CED8E1)
+&nbsp;&nbsp;![license](https://img.shields.io/github/license/fumioryoto/unbound-dashboard?color=CED8E1)
 </div>
 
 <br/>
 
-![Latest](https://github.com/ar51an/unbound-dashboard/blob/main/screenshots/dashboard-2.3.png)
+![Latest](https://github.com/fumioryoto/unbound-dashboard/blob/main/screenshots/dashboard-2.3.png)
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/11185794/205388020-99c057ad-ee9d-440b-8df9-587f5c133f2e.png?raw=true" alt="divider"/>
@@ -23,7 +23,7 @@
 🔸 `Prometheus` time series database  
 🔸 Unbound metrics exporter in `Go`  
 🔸 Log aggregation with `Loki`  
-🔸 Unbound `setup` is available at [unbound-redis](https://github.com/ar51an/unbound-redis)  
+🔸 Unbound `setup` is available at [unbound-redis](https://github.com/fumioryoto/unbound-redis)  
 🔸 Refer to `info.md` for dashboard details and `release.md` for changes
 
 #### Specs:
@@ -82,7 +82,7 @@
 
 #
 #### ❯ Unbound Exporter
-* I wrote my own exporter in `Go`. It is more efficient and tailored for this dashboard. A prebuilt binary (for arm64) is available in the release. Source code is available at [unbound-exporter](https://github.com/ar51an/unbound-exporter).
+* I wrote my own exporter in `Go`. It is more efficient and tailored for this dashboard. A prebuilt binary (for arm64) is available in the release. Source code is available at [unbound-exporter](https://github.com/fumioryoto/unbound-exporter).
 
 * **Config:**  
   Modify Unbound config. Edit `/etc/unbound/unbound.conf`
